@@ -16,6 +16,7 @@ public class VadikMod {
 
         ModEntities.ENTITIES.register(modBus);
         ModItems.ITEMS.register(modBus);
+        ModSounds.SOUNDS.register(modBus);
 
         modBus.addListener(this::addCreative);
         MinecraftForge.EVENT_BUS.register(this);

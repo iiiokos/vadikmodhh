@@ -1,0 +1,7 @@
+{
+  "vadik_death": {
+    "sounds": [
+      { "name": "vadikmod:vadik_death", "stream": false }
+    ]
+  }
+}

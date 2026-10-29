@@ -97,6 +97,6 @@ public class VadikEntity extends PathfinderMob {
 
     @Override
     protected SoundEvent getDeathSound() {
-        return SoundEvents.VILLAGER_DEATH;
+        return ModSounds.VADIK_DEATH.get();
     }
 }
